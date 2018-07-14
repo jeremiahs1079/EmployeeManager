@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Employee } from '../models/employee.model';
-import { EmployeeService } from '../service/employee.service';
+import { Employee } from 'src/app/models/employee.model';
+import { EmployeeService } from 'src/app/service/employee/employee.service';
+
 
 @Component({
   selector: 'app-employee-manager-container',

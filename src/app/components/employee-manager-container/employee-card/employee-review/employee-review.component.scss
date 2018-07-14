@@ -1,0 +1,21 @@
+.employee-review-container {
+    width: 90%;
+    vertical-align: top;
+    display: inline-block;
+
+    .profile-pic {
+        // width: 40%;
+        float: left;
+    }
+    .employee-information {
+        
+        width: 40%;
+        margin-left: 10%;
+        // float: right;
+        display: inline-block;
+        
+        .name-container {
+            
+        }
+    }
+}

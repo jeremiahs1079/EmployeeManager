@@ -1,5 +1,6 @@
-import { Employee } from './../models/employee.model';
+
 import { Injectable } from '@angular/core';
+import { Employee } from 'src/app/models/employee.model';
 
 const employees: Employee[] = [
   {
@@ -7,21 +8,21 @@ const employees: Employee[] = [
     LastName: 'Doe',
     EmployeeId: 1,
     PositionId: 1,
-    EmployeeImage: ''
+    EmployeeImage: '/assets/profile/person-flat/64x64.png'
   },
   {
     FirstName: 'Jane',
     LastName: 'Doe',
     EmployeeId: 2,
-    PositionId: 1,
-    EmployeeImage: ''
+    PositionId: 2,
+    EmployeeImage: '/assets/profile/person-girl-flat/64x64.png'
   },
   {
     FirstName: 'Jimmy',
     LastName: 'Olsen',
     EmployeeId: 3,
-    PositionId: 1,
-    EmployeeImage: ''
+    PositionId: 3,
+    EmployeeImage: '/assets/profile/person-flat/64x64.png'
   }
 ];
 
